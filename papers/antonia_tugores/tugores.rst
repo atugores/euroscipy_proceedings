@@ -12,11 +12,10 @@ Social networks mobility data storage
 
 .. class:: abstract
 
-Social networks have evolved quickly the last years and nowadays a large number of
-people has several accounts in them. Besides, the emergence of
-smartphones helped people to use these accounts constantly, and all these generate
-new sources of information with large and public datasets to be studied. Under
-this conditions, data acquisition and storage is a key point to allow
+Social networks have evolved quickly over the last few years and nowadays many people have several accounts. Moreover, the emergence of
+smartphones helps people access these accounts constantly, and this generates
+new large and public datasets to be studied. Under
+these conditions, data acquisition and storage are key to allowing
 data analysis. In this context, we are gathering geolocated tweets as a source
 of information for mobility patterns.
 
@@ -29,19 +28,19 @@ big data, noSQL, data acquisition, benchmark
 Introduction
 ============
 
-Even that social networks appeared in the old nineties, they matured in the last decade
-at the same time that mobile internet connections has grown. Even that some
-social networks data is not freely accessible, others like Twitter are totally
-public and includes geolocation data. This information can be used to study mobility
-behaviour of people in urban areas, such as attitudes and lifestyle, which are
-particularly important, e.g., for developing demand
-management concepts aiming to influence mobility decisions.
+Even though social networks appeared in the old nineties, they matured in the last decade
+at the same time that mobile internet connections have grown. Even though some
+social network data is not freely accessible, other sites like Twitter are totally
+public and include geolocation data. This information can be used to study the mobility
+behaviour of people in urban areas, including attitudes and lifestyle, which are
+particularly important for e.g. developing demand
+management concepts for influencing mobility decisions.
 
 In the framework of EUNOIA project we are currently gathering information related to
 mobility and in this context we are using geolocated tweets as a source of information
-for
+to study
 mobility patterns. In order to collect this data we make use of Python and Tweepy.
-Storing this data and accessing them quickly is a challenging task for which we rely
+Storing these data and accessing it quickly is a challenging task for which we rely
 on MongoDB, a noSQL database, and its Python driver.
 
 
